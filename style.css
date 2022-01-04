@@ -1,0 +1,124 @@
+body{
+  margin : 0;
+  padding : 0;
+  background-color : #f1e8f9;
+}
+
+
+h1 {
+    font-family: fangsong;
+    letter-spacing: 20px;
+    font-weight: bold;
+    font-variant: small-caps;
+    margin-left : 23px;
+    width:50%
+}
+.heading2{
+  color : #525e15;
+  /*transform : translate(50px, 100px);*/
+}
+
+#nav{
+  /*display : flex;*/
+}
+.searchcnt{
+	font-size:20px;
+  font-family:fantasy;
+  margin : 20px;
+}
+#crd{
+  width: 510px;
+  display : inline-block;
+  padding: 15px;
+  margin:45px;
+  border:solid 2px #edb538;
+  border-radius: 15px;
+  /*box-shadow:2px 2px 16px rgba(0,0,0,0.5);*/
+  font-family: fangsong;
+  font-size: 20px;
+
+}
+
+#crd span{
+  display : block;
+  padding:8px;
+}
+
+hr{
+  margin:0;
+  background-color:red;
+}
+.dopecolor{
+  background-color: #edb538;
+  height:15px;
+}
+.nm::before{
+  font-weight : bold;
+  color : navy;
+  content : " Name : ";
+}
+.idd::before{
+  font-weight : bold;
+  color : navy;
+  content : " ID : ";
+}
+.email::before{
+  font-weight : bold;
+  color : navy;
+  content : " Email : ";
+}
+.emailadr::before{
+  font-weight : bold;
+  color : navy;
+  content : " EmailAddress : ";
+}
+.con::before{
+  font-weight : bold;
+  color : navy;
+  content : " Phone no. : ";
+}
+.comp::before{
+  font-weight : bold;
+  color : navy;
+  content : " Company  : ";
+}
+
+#header{
+  display:flex;
+}
+.head_right{
+  width:50%;
+  /*margin-right: 10px;*/
+  padding:21.6px;
+  text-align: right;
+}
+.searchbox{
+  padding:10px;
+  width:500px;
+  margin:10px;
+  border-color:#edb538;
+  border-style:solid;
+}
+.gobtn{
+    width: 60px;
+    text-align: center;
+    padding: 11px;
+    background-color: #2464a1;
+    color: white;
+    font-weight: bolder;
+    border-width: 0;
+    border-radius: 20px;
+}
+
+.anchor{
+  text-align: center;
+
+}
+.anchor a{
+  padding:20px;
+  color:white;
+  background-color:#2464a1;
+  border-radius:20px;
+  text-decoration:none;
+  font-size:20px;
+}
