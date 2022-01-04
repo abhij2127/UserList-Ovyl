@@ -9,3 +9,5 @@
 7. The difference between rendering session time of mn.js and test.js is negligible hence they are comparable in performance.
 8. You can change the src attribute of script tag in index.php to "./test.js" for checking it out, by default it is set to mn.js.
 9. style.css is the stylesheet linked to both search.php and index.php.
+
+### Note - If you are using node.js live-server chnage the name of index.php to index.html and move the readme file to some other directory before executing.
